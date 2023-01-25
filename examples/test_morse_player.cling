@@ -1,0 +1,16 @@
+.L morse_player.cpp
+
+#include <stdio.h>
+
+unsigned long tm = 0;
+
+unsigned long millis_cb() {
+    return tm;
+}
+
+void play_state_changed_cb(PlayState play_state) {
+    printf("play state changed: %s\n", play_state_str[play_state]);
+}
+
+
+Player* p = new Player(&play_state_changed_cb, &millis_cb);
