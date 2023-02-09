@@ -36,10 +36,13 @@ void SetupDDS () {
 
   // Set up Timer/Counter0 for 20kHz interrupt to output samples.
   TCCR0A = 3<<WGM00;                       // Fast PWM
-  TCCR0B = 1<<WGM02 | 2<<CS00;             // 1/8 prescale
-  //TIMSK = 1<<OCIE0A;                       // Enable compare match, disable overflow
-  TIMSK = 1<<OCIE0A | 1<<TOIE0;                       // Enable compare match, disable overflow
+  TCCR0B = 1<<WGM02 | 2<<CS00;             // 1/8 prescale (1MHz)
+  //TIMSK = 1<<OCIE0A;                     // Enable compare match, disable overflow
+  TIMSK = 1<<OCIE0A | 1<<TOIE0;            // Enable compare match, disable overflow
 
-  OCR0A = 60;                              // Divide by 61
+  //   The Output Compare Register A contains an 8-bit value that is continuously compared with the counter value
+  // (TCNT0). A match can be used to generate an Output Compare interrupt, or to generate a waveform output on the
+  // OC0A pin.
+  OCR0A = 60;                              // Divide by 61 - Timer/Counter0 – Output Compare Register A
 }
 #endif
