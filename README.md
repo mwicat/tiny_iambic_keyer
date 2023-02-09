@@ -15,6 +15,13 @@ Outputs:
 - LOW/HIGH Signal on pin 2 to drive the relay. The purpose of the relay is to simulate what normal paddle does when it is connected to the transmitter - that is, to ground single signal line when morse operator pushes the lever and to open it when he/she lets the lever go.
 - Audio signal generated with pulse width modulation so that you can just connect it to audio amplifier and listen to dits and dahs sounds without the transmitter.
 
+## Connections
+
+<figure>
+<a href="docs/attiny_pinout.png"><img src="docs/attiny_pinout.png" width="100%" alt="ATTiny85 pinout"></a>
+<figcaption>ATTiny85 pinout</figcaption>
+</figure>
+
 <figure>
 <a href="docs/fritzing/tiny_iambic_decoder_bb.png"><img src="docs/fritzing/tiny_iambic_decoder_bb.png" width="100%" alt="Tiny iambic decoder breadboard"></a>
 <figcaption>Tiny iambic decoder breadboard</figcaption>
