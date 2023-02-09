@@ -26,3 +26,9 @@ Outputs:
 <a href="docs/fritzing/tiny_iambic_decoder_bb.png"><img src="docs/fritzing/tiny_iambic_decoder_bb.png" width="100%" alt="Tiny iambic decoder breadboard"></a>
 <figcaption>Tiny iambic decoder breadboard</figcaption>
 </figure>
+
+<figure>
+<a href="docs/kicad/morse_decoder/schematic_export/morse_decoder.svg"><img src="docs/kicad/morse_decoder/schematic_export/morse_decoder.svg" width="100%" alt="Tiny iambic decoder schematic"></a>
+<figcaption>Tiny iambic decoder schematic</figcaption>
+</figure>
+
