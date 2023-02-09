@@ -28,7 +28,7 @@ Outputs:
 </figure>
 
 <figure>
-<a href="docs/kicad/morse_decoder/schematic_export/morse_decoder.svg"><img src="docs/kicad/morse_decoder/schematic_export/morse_decoder.svg" width="100%" alt="Tiny iambic decoder schematic"></a>
+<a href="docs/kicad/morse_decoder/schematic_export/morse_decoder.png"><img src="docs/kicad/morse_decoder/schematic_export/morse_decoder.png" width="100%" alt="Tiny iambic decoder schematic"></a>
 <figcaption>Tiny iambic decoder schematic</figcaption>
 </figure>
 
